@@ -66,6 +66,16 @@ function updateCity(event) {
   )}</small></div>
   </div>`;
 }
+
+//emojis
+function getFlagEmoji(countryCode) {
+  let codePoints = countryCode
+    .toUpperCase()
+    .split("")
+    .map((char) => 127397 + char.charCodeAt());
+  return String.fromCodePoint(...codePoints);
+}
+
 updateDate();
 setInterval(updateDate, 1000);
 
