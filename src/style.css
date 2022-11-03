@@ -1,9 +1,10 @@
 body {
   font-family: serif;
-  background-color: #f9f7fe;
+  background-color: rgb(146, 237, 237);
 }
 
 h1 {
+  color: rgba(131, 6, 248, 0.537);
   text-align: center;
   font-size: 40px;
 }
@@ -17,6 +18,7 @@ select {
 }
 
 h2 {
+  color: rgba(76, 12, 137, 0.961);
   margin: 0 0 5px;
   font-size: 30px;
 }
@@ -26,11 +28,11 @@ footer {
 }
 
 .container {
-  max-width: 500px;
-  margin: 60 0auto;
-  background: rgb(169, 243, 241);
+  max-width: 600px;
+  margin: 60px auto;
+  background: rgb(81, 241, 235);
   padding: 30px;
-  box-shadow: 10px 5px 5px rgba(16, 184, 245, 0.2);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
 }
 
@@ -47,11 +49,14 @@ footer {
 }
 
 .date {
+  color: rgb(124, 13, 228);
+  font-size: 25px;
   display: block;
   opacity: 0.7;
 }
 
 .time {
+  color: rgb(84, 30, 135);
   font-size: 48px;
   font-weight: bold;
 }
