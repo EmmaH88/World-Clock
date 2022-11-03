@@ -27,7 +27,7 @@ footer {
 }
 
 .container {
-  max-width: 600px;
+  max-width: 500px;
   margin: 0auto;
   background: rgb(65, 239, 233);
   padding: 30px;
@@ -58,7 +58,7 @@ footer {
 }
 
 .time small {
-  font-size: 24px;
-  vertical-align: top;
+  font-size: 26px;
+  vertical-align: middle;
   line-height: 36px;
 }
