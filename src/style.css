@@ -22,6 +22,10 @@ h2 {
   font-size: 30px;
 }
 
+footer {
+  text-align: center;
+}
+
 .container {
   max-width: 600px;
   margin: 0auto;
